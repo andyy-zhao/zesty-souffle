@@ -8,9 +8,8 @@ import { ProSidebarProvider } from 'react-pro-sidebar';
 import  RestaurantData from "./restaurants.json";
 
 function App() {
-  {document.body.style.overflow = "hidden"};
-  let numRestaurants = RestaurantData[0].restaurants.length - 1;
-  const featuredNum = Math.floor(Math.random() * numRestaurants);
+  document.body.style.overflow = "hidden";
+
   return (
     <ProSidebarProvider>
       <Routes>

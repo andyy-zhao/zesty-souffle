@@ -51,24 +51,16 @@ export const ImgCarousel = ( prop ) => {
         {
           prop.item.map((picture,index) => {
             return(
-              <>
-              {/* <div key={picture.name}>
-                <img src={picture.image} className="img-item" key={index}/>
-                {picture.name}<br></br>
-                {picture.price}
-                {picture.pcs != "" && ` (` + picture.pcs + `)`}
-              </div> */}
               <Card className="slider-card">
                 <Card.Img variant="top" src={picture.image} style={{height:'19rem', width:'18rem'}} />
                 <Card.Body>
                   <Card.Title style={{color:"#36392D", fontFamily:"Archivo"}}>{picture.name}</Card.Title>
                   <Card.Text style={{color:"#36392D"}}>
                     {picture.price}
-                    {picture.pcs != "" && ' (' + picture.pcs + ')'}
+                    {picture.pcs !== "" && ' (' + picture.pcs + ')'}
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </>
             ) 
           })
         }
