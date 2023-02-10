@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Lalisa;
+    src: url('./assets/font/Lalisa.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ClashDisplay;
+    src: url('./assets/font/ClashDisplay-Bold.otf');
+    font-weight: 400;
+}
+
+
+.mainBackground {
+    background-image: url("./assets/img/frontPageBackground.png");
+    background-size: cover;
+    background-position: center;
+    height: 101vh;
+    width: 102vw;
+    margin-left: -1rem;
+    overflow: hidden;
+}
+
+.bottomBorder {
+    background-color: #3D3D3E;
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+}
+
+.homeBackground {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #f3f4ef;
+}
+.hi {
+    background-color: #f3f4ef;
+    background-size: cover;
+    height: 100vh;
+    margin-left: 55px;
+}
