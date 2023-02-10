@@ -26,7 +26,7 @@ export const ImgCarousel = ( prop ) => {
   };
   const numItems = prop.item.length;
   let classname;
-  if (numItems < 3) {
+  if (numItems <= 3) {
     classname = "img-slider-1";
   } else {
     classname = "img-slider";
