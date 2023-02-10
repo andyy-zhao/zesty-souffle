@@ -1,4 +1,4 @@
-import SideNav, { Toggle, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
+import SideNav, { NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import React from 'react';
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 import "../../styles.css"
@@ -7,7 +7,6 @@ import { useState } from 'react';
 import { CategoryModal } from '../modal/CategoryModal';
 
 export const CategorySideNav = ({ handleCategory }) => {
-    const navigate = useNavigate();
     const [modal, setModal] = useState(false);
     const [modalType, setModalType] = useState("");
     const [open, setOpen] = useState(true)

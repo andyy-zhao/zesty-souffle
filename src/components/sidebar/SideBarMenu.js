@@ -1,5 +1,5 @@
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import React, { useState } from 'react';
+import React from 'react';
 import { useProSidebar } from 'react-pro-sidebar';
 import navbarIcon from '../../assets/icons/navbarIcon.svg';
 

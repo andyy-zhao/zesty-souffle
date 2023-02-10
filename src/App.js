@@ -5,7 +5,6 @@ import { SignIn } from "./pages/SignIn"
 import { Home } from "./pages/home/Home"
 import { RestaurantPage } from './pages/RestaurantPage';
 import { ProSidebarProvider } from 'react-pro-sidebar';
-import  RestaurantData from "./restaurants.json";
 
 function App() {
   document.body.style.overflow = "hidden";

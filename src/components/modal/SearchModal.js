@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import RestaurantData from "../../restaurants.json";
 import Modal from 'react-bootstrap/Modal';
 import '../../styles.css';
