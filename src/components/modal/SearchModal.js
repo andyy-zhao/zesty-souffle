@@ -50,6 +50,7 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                                 <div key={index}>{itemArray[0].name}</div>
                             )
                         })
+                        return null;
                     })
                     for (var i = 0; i < itemArray.length; i++) {
                         let item = itemArray[i];
@@ -57,7 +58,7 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                             <SearchCard restaurant={restaurant} item={item} />
                         )
                     }
-
+                    return null;
                 })}
 
             </div>

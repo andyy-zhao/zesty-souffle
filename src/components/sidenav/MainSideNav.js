@@ -1,7 +1,7 @@
 import React from 'react';
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 import "../../styles.css"
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { HomeSideNav } from './HomeSideNav';
 import { CategorySideNav } from './CategorySideNav';
 

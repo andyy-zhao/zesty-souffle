@@ -1,7 +1,7 @@
-import React from "react";
 import { Star } from "./Star"
 import { EmptyStar } from "./EmptyStar";
 import { HalfStar } from "./HalfStar";
+
 import "./Star.css"
 
 const STAR_COUNT = 5;

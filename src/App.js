@@ -8,7 +8,6 @@ import { ProSidebarProvider } from 'react-pro-sidebar';
 
 function App() {
   document.body.style.overflow = "hidden";
-
   return (
     <ProSidebarProvider>
       <Routes>

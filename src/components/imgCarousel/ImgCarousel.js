@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
-import '../../styles.css';
 import Card from 'react-bootstrap/Card'
 import '../../styles.css';
 
@@ -51,6 +50,7 @@ export const ImgCarousel = ( prop ) => {
         {
           prop.item.map((picture,index) => {
             return(
+              <>
               <Card className="slider-card">
                 <Card.Img variant="top" src={picture.image} style={{height:'19rem', width:'18rem'}} />
                 <Card.Body>
@@ -61,6 +61,7 @@ export const ImgCarousel = ( prop ) => {
                   </Card.Text>
                 </Card.Body>
               </Card>
+              </>
             ) 
           })
         }
