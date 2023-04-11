@@ -2435,7 +2435,7 @@
             },
             {
                 "name": "MIZU·Braised chicken rice御品黄焖鸡米饭",
-                "location": "150 University Ave W #8b, Waterloo, ON N2L 6J3",
+                "location": "150 University Ave W #8b, Waterloo",
                 "openHour": "11:00AM",
                 "closeHour": "10:00PM",
                 "rating": "5",
@@ -2443,83 +2443,59 @@
                 "image": "https://lh5.googleusercontent.com/p/AF1QipM9O2ge2hptffidTr7iHcYy9f_oqzDU1nOKCf7Y=w408-h544-k-no",
                 "menu": [
                     {
-                        "Appetizers": [
+                        "Menu": [
                             { 
-                                "name": "Page 1",
+                                "name": "Special",
                                 "price": "$",
-                                "image": "https://i.imgur.com/Lf6l38w.png",
+                                "image": "https://i.imgur.com/O1eK1V8.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 2",
+                                "name": "Special Noodle Soup",
                                 "price": "$",
-                                "image": "https://i.imgur.com/13mvHpL.png",
+                                "image": "https://i.imgur.com/fo1EhRz.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 3",
+                                "name": "Special Teppan Rice",
                                 "price": "$",
-                                "image": "https://i.imgur.com/Zh9C7Hz.png",
-                                "pcs": ""
-                            }
-                        ]
-                    },
-                    {
-                        "Mains": [
-                            { 
-                                "name": "Page 1",
-                                "price": "$",
-                                "image": "https://i.imgur.com/plyHb4G.png",
+                                "image": "https://i.imgur.com/iKIDbTI.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 2",
+                                "name": "Japanese Style Omelet Rice",
                                 "price": "$",
-                                "image": "https://i.imgur.com/yUkiU0S.png",
-                                "pcs": ""
-                            }
-                        ]
-                    },
-                    {
-                        "Desserts": [
-                            { 
-                                "name": "Page 1",
-                                "price": "$",
-                                "image": "https://i.imgur.com/lTEtp8X.png",
-                                "pcs": ""
-                            }
-                        ]
-                    },
-                    {
-                        "Drinks": [
-                            { 
-                                "name": "Page 1",
-                                "price": "$",
-                                "image": "https://i.imgur.com/JUCvp5t.png",
+                                "image": "https://i.imgur.com/A7Ve5LO.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 2",
+                                "name": "Special Teppan Spaghetti",
                                 "price": "$",
-                                "image": "https://i.imgur.com/KehTaUs.png",
+                                "image": "https://i.imgur.com/NCwbE9H.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 3",
+                                "name": "Snacks",
                                 "price": "$",
-                                "image": "https://i.imgur.com/s9r7s8l.png",
+                                "image": "https://i.imgur.com/BRYFhHU.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 4",
+                                "name": "Appetizer",
                                 "price": "$",
-                                "image": "https://i.imgur.com/GwsqATf.png",
+                                "image": "https://i.imgur.com/Yb7TtVm.png",
                                 "pcs": ""
                             },
                             { 
-                                "name": "Page 5",
+                                "name": "Soups & Stew",
                                 "price": "$",
-                                "image": "https://i.imgur.com/R7KNoN1.png",
+                                "image": "https://i.imgur.com/ERo3jXe.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Drinks",
+                                "price": "$",
+                                "image": "https://i.imgur.com/tEEWh4l.png",
                                 "pcs": ""
                             }
                         ]
