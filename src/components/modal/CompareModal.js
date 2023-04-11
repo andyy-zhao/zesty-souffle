@@ -69,10 +69,15 @@ export const CompareModal = ({compareActive, handleCompare}) => {
         }
     };
     const restaurants = [];
+    const unique_names = [];
     for (let i = 0; i < RestaurantData[0].restaurants.length; i++) {
-        restaurants.push(RestaurantData[0].restaurants[i]);
-    }
-    ;
+        if (!unique_names.includes(RestaurantData[0].restaurants[i].name)) {
+            restaurants.push(RestaurantData[0].restaurants[i]);
+            unique_names.push(RestaurantData[0].restaurants[i].name)
+        }
+        
+    };
+
     const [firstRestaurant, setFirstRestaurant] = useState(restaurants[0]);
     const [secondRestaurant, setSecondRestaurant] = useState(restaurants[0]);
     const menulist = getItemsList(restaurants[0]);

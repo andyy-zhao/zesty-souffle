@@ -1,6 +1,8 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import Card from 'react-bootstrap/Card'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 import '../../styles.css';
 
 export const ImgCarousel = ( prop ) => {
@@ -34,7 +36,8 @@ export const ImgCarousel = ( prop ) => {
   return (
     <div style={{
       paddingBottom: '20px',
-      position: 'relative'
+      position: 'relative',
+      paddingLeft: '10px'
       }}>
       <Carousel 
         responsive={responsive} 
@@ -52,7 +55,9 @@ export const ImgCarousel = ( prop ) => {
             return(
               <>
               <Card className="slider-card">
-                <Card.Img variant="top" src={picture.image} style={{height:'19rem', width:'18rem'}} />
+                <Zoom>
+                  <Card.Img variant="top" src={picture.image} style={{height:'19rem', width:'18rem'}} />
+                </Zoom>
                 <Card.Body>
                   <Card.Title style={{color:"#36392D", fontFamily:"Archivo"}}>{picture.name}</Card.Title>
                   <Card.Text style={{color:"#36392D"}}>

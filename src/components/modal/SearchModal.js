@@ -11,6 +11,9 @@ export const SearchModal = ({searchActive, handleSearch}) => {
         e.preventDefault();
         setSearchInput(e.target.value);
     }
+
+    const displayedRestaurants = [];
+
     return (
       <>
         <Modal show={searchActive} onHide={handleSearch} className="main-search-modal" size="lg">
@@ -54,9 +57,12 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                     })
                     for (var i = 0; i < itemArray.length; i++) {
                         let item = itemArray[i];
-                        return (
-                            <SearchCard restaurant={restaurant} item={item} />
-                        )
+                        if (!displayedRestaurants.includes(restaurant.name)) {
+                            displayedRestaurants.push(restaurant.name);
+                            return (
+                                <SearchCard restaurant={restaurant} item={item} />
+                            )
+                        }
                     }
                     return null;
                 })}

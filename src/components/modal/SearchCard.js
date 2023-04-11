@@ -5,11 +5,20 @@ import Nav from 'react-bootstrap/Nav';
 import {Container, Row, Col} from "react-bootstrap";
 
 export const SearchCard = ({restaurant, item}) => {
-    console.log(item)
+    console.log("search card", restaurant);
     const url = `/restaurant/${restaurant.name}`;
-    console.log("SHIT: " + JSON.stringify(Object.values(restaurant.menu[0])[0]));
-    const img1 = Object.values(restaurant.menu[1])[0][0].image;
-    const img2 = Object.values(restaurant.menu[2])[0][0].image
+    let img1, img2;
+    try {
+        img1 = Object.values(restaurant.menu[1])[0][0].image;
+    } catch {
+        img1 = Object.values(restaurant.menu[0])[0][1].image;
+    }
+    try {
+        img2 = Object.values(restaurant.menu[2])[0][0].image;
+    } catch {
+        img2 = Object.values(restaurant.menu[0])[0][2].image;
+    }
+
     return (
         <Nav>
             <Nav.Item className="see-menu-btn">

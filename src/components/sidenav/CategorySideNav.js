@@ -80,16 +80,16 @@ export const CategorySideNav = ({ handleCategory }) => {
                             <NavItem onSelect={() => handleModalType("Seafood")}>
                                 <NavText>Seafood</NavText>
                             </NavItem>
-                            <NavItem onSelect={() => handleModalType("Pasta")}>
+                            {/* <NavItem onSelect={() => handleModalType("Pasta")}>
                                 <NavText>Pasta</NavText>
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem onSelect={() => handleModalType("Noodles")}>
                                 <NavText>Noodles</NavText>
                             </NavItem>
                             <NavItem onSelect={() => handleModalType("Chicken")}>
                                 <NavText>Chicken</NavText>
                             </NavItem>
-                            <NavItem onSelect={() => handleModalType("Stea")}>
+                            <NavItem onSelect={() => handleModalType("Steak")}>
                                 <NavText>Steak</NavText>
                             </NavItem>
                         </NavItem>
