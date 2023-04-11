@@ -33,9 +33,9 @@ export const CategorySideNav = ({ handleCategory }) => {
                             <NavItem onSelect={() => handleModalType("Bagels")}>
                                 <NavText>Bagels</NavText>
                             </NavItem>
-                            <NavItem onSelect={() => handleModalType("Donuts")}>
+                            {/* <NavItem onSelect={() => handleModalType("Donuts")}>
                                 <NavText>Donuts</NavText>
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem onSelect={() => handleModalType("Eggs")}>
                                 <NavText>Eggs</NavText>
                             </NavItem>
@@ -55,9 +55,9 @@ export const CategorySideNav = ({ handleCategory }) => {
                             <NavItem onSelect={() => handleModalType("Fries")}>
                                 <NavText>Fries</NavText>
                             </NavItem>
-                            <NavItem onSelect={() => handleModalType("Tacos")}>
+                            {/* <NavItem onSelect={() => handleModalType("Tacos")}>
                                 <NavText>Tacos</NavText>
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem onSelect={() => handleModalType("Pizza")}>
                                 <NavText>Pizza</NavText>
                             </NavItem>
@@ -116,12 +116,12 @@ export const CategorySideNav = ({ handleCategory }) => {
                             <NavItem onSelect={() => handleModalType("Bubble Tea")}>
                                 <NavText>Bubble Tea</NavText>
                             </NavItem>
-                            <NavItem onSelect={() => handleModalType("Alcoholic Drinks")}>
+                            {/* <NavItem onSelect={() => handleModalType("Alcoholic Drinks")}>
                                 <NavText>Alcoholic Drinks</NavText>
                             </NavItem>
                             <NavItem onSelect={() => handleModalType("Juice")}>
                                 <NavText>Juice</NavText>
-                            </NavItem>
+                            </NavItem> */}
                         </NavItem>
                         <NavItem eventKey="home" key="goback" onSelect={handleCategory}>
                             <NavIcon key="drincIcon"><i className='fa-solid fa-chevron-left' style={{fontSize: "1.5em"}}></i></NavIcon>
