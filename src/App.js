@@ -11,7 +11,6 @@ function App() {
   return (
     <ProSidebarProvider>
       <Routes>
-        {/* <Route path="/" element={<SignIn />} /> */}
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/restaurant/:id" element={<RestaurantPage />} />
