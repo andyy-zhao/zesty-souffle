@@ -15,9 +15,3 @@ Welcome to Zesty Souffle! Are you craving food but you're not sure what to eat? 
 <img src="/src/assets/screenshots/main.png?raw=true" alt="Main" width="300"> <img src="/src/assets/screenshots/search.png?raw=true" alt="Search" width="300">
 <img src="/src/assets/screenshots/lucky.png?raw=true" alt="Feeling Lucky" width="300"> <img src="/src/assets/screenshots/compare1.png?raw=true" alt="Compare 1" width="300">
 <img src="/src/assets/screenshots/compare2.png?raw=true" alt="Compare 2" width="300">
-
-## Technologies Used: 
-* HTML
-* CSS
-* JavaScript
-* ReactJS
